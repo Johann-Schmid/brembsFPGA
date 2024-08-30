@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../flySimulator.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../flySimulator.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../flySimulator.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../flySimulator.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

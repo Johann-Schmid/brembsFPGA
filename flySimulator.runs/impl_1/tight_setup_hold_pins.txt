@@ -1,0 +1,12 @@
++======================+======================+================================+
+| Launch Setup Clock   | Launch Hold Clock    | Pin                            |
++======================+======================+================================+
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[651]/D |
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[669]/D |
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[661]/D |
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[653]/D |
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[656]/D |
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[638]/D |
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[660]/D |
+| clk_out1_clk_wiz_0_1 | clk_out1_clk_wiz_0_1 | si_ad_change_buffer_reg[799]/D |
++----------------------+----------------------+--------------------------------+

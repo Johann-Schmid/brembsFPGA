@@ -1,0 +1,61 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 0b78d9ce410c40c0a0cdcd1a7fab5931 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot flySimulator_bench_behav xil_defaultlib.flySimulator_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xil_defaultlib.dvi_constants
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture behavioral of entity xil_defaultlib.rxByteUart [rxbyteuart_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkfbout_mult_f=15.0...]
+Compiling architecture bufio_v of entity unisim.BUFIO [bufio_default]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="5")(1,1)(1,7)...]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(bufr_divide="1")(1,1)(1,7)...]
+Compiling architecture behavioral of entity xil_defaultlib.SyncAsync [\SyncAsync(kresetto='1')\]
+Compiling architecture behavioral of entity xil_defaultlib.ResetBridge [resetbridge_default]
+Compiling architecture behavioral of entity xil_defaultlib.SyncAsync [syncasync_default]
+Compiling architecture behavioral of entity xil_defaultlib.ClockGen [\ClockGen(kclkrange=3)(1,4)\]
+Compiling architecture behavioral of entity xil_defaultlib.TMDS_Encoder [tmds_encoder_default]
+Compiling architecture obufds_v of entity unisim.OBUFDS [\OBUFDS(iostandard="TMDS_33")(1,...]
+Compiling architecture oserdese2_v of entity unisim.OSERDESE2 [\OSERDESE2(data_rate_tq="SDR",da...]
+Compiling architecture oserdese2_v of entity unisim.OSERDESE2 [\OSERDESE2(data_rate_tq="SDR",da...]
+Compiling architecture behavioral of entity xil_defaultlib.OutputSERDES [outputserdes_default]
+Compiling architecture behavioral of entity xil_defaultlib.rgb2dvi [\rgb2dvi(kclkprimitive="MMCM",kc...]
+Compiling architecture rgb2dvi_0_arch of entity xil_defaultlib.rgb2dvi_0 [rgb2dvi_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_800 [vga_800_default]
+Compiling architecture behavioral of entity xil_defaultlib.clockDivider [\clockDivider(div_factor=39062)\]
+Compiling architecture behavioral of entity xil_defaultlib.pwm [pwm_default]
+Compiling architecture behavioral of entity xil_defaultlib.rxTxUart [\rxTxUart(clk_freq=40000000,baud...]
+Compiling architecture xadc_v of entity unisim.XADC [\XADC(init_40="0000000000010001"...]
+Compiling architecture xilinx of entity xil_defaultlib.xadc_wiz_0 [xadc_wiz_0_default]
+Compiling architecture behavior of entity xil_defaultlib.SPI_Master [spi_master_default]
+Compiling architecture behavioral of entity xil_defaultlib.flySimulator [flysimulator_default]
+Compiling architecture behavioral of entity xil_defaultlib.flysimulator_bench
+Built simulation snapshot flySimulator_bench_behav

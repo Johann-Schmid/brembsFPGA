@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../flySimulator.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.vhd" \
+"../../../../flySimulator.ip_user_files/ipstatic/src/ClockGen.vhd" \
+"../../../../flySimulator.ip_user_files/ipstatic/src/SyncAsync.vhd" \
+"../../../../flySimulator.ip_user_files/ipstatic/src/SyncAsyncReset.vhd" \
+"../../../../flySimulator.ip_user_files/ipstatic/src/DVI_Constants.vhd" \
+"../../../../flySimulator.ip_user_files/ipstatic/src/OutputSERDES.vhd" \
+"../../../../flySimulator.ip_user_files/ipstatic/src/TMDS_Encoder.vhd" \
+"../../../../flySimulator.ip_user_files/ipstatic/src/rgb2dvi.vhd" \
+"../../../../flySimulator.srcs/sources_1/ip/rgb2dvi_0/sim/rgb2dvi_0.vhd" \
+"../../../../flySimulator.srcs/sources_1/new/SPI_Master.vhd" \
+"../../../../flySimulator.srcs/sources_1/new/clockDivider.vhd" \
+"../../../../flySimulator.srcs/sources_1/new/flySimulator.vhd" \
+"../../../../flySimulator.srcs/sources_1/new/pwm.vhd" \
+"../../../../flySimulator.srcs/sources_1/new/rxByteUart.vhd" \
+"../../../../flySimulator.srcs/sources_1/new/rxTxUart.vhd" \
+"../../../../flySimulator.srcs/sources_1/new/vga_800.vhd" \
+"../../../../flySimulator.srcs/sim_1/new/simulation.vhd" \
+
+# Do not sort compile order
+nosort
